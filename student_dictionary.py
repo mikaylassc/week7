@@ -5,6 +5,7 @@ Spring 2026
 Week 7 Assignment 1
 """
 # student_dictionary.py
+
 # This function creates a dictionary with student information
 def create_student_dictionary():
     # Define the dictionary with updated key-value pairs
@@ -12,8 +13,10 @@ def create_student_dictionary():
         "name": "Jade West",
         "age": 22,
         "major": "Criminal Justice",
+        "minor": "Psychology"
     }
     
+    # Return the dictionary so it can be used in other functions
     return student
 
 
